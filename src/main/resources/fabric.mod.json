@@ -12,6 +12,9 @@
   "entrypoints": {
     "client": [
       "xyz.yourboykyle.secretroutes.Main"
+    ],
+    "modmenu": [
+      "xyz.yourboykyle.secretroutes.config.ModMenuIntegration"
     ]
   },
   "mixins": [

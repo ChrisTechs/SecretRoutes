@@ -28,6 +28,11 @@ repositories {
     maven { url "https://repo.nea.moe/releases" }
 
     maven { url 'https://repo.hypixel.net/repository/Hypixel/' }
+
+    maven {
+        name = "Terraformers"
+        url = "https://maven.terraformersmc.com/"
+    }
 }
 
 dependencies {
@@ -39,6 +44,8 @@ dependencies {
     modImplementation "dev.isxander:yet-another-config-lib:${project.yacl_version}"
 
     implementation 'net.hypixel:mod-api:1.0.1'
+
+    modImplementation("com.terraformersmc:modmenu:${project.modmenu_version}")
 
     // LibAutoupdate
     modCompileOnly("moe.nea:libautoupdate:1.3.1") {
